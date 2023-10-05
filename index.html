@@ -6,10 +6,12 @@
     <link rel="stylesheet" href="styles.css">
     <script type="text/javascript" src="script.js" defer></script>
 </head>
-<body>
-    <h1 id="logo">Sweet Heart</h1>
+<body id="body">
+    <div id="logo" class="logo">
+        <img src="No Background.png" class="logo_pic" />
+        <h1>Sweet Heart</h1>
+    </div>
     <br />
-    <hr />
     <br />
     <div class="main_part">
         <div class="category" id="dishes">
@@ -22,28 +24,87 @@
         </div>
         <div class="category" id="drinks">
             <img src="Coffee_Pictures.jpg" />
-            <h2>Coffee & Beverage</h2>
+            <h2>Coffee &<br />Beverage</h2>
         </div>
     </div>
 
+    <!---------- Pastry ---------->
     <div class="food" id="dishes_board">
-        <span>Chicken Pie</span> <span>  ---  </span><span>3</span><br />
+        <h5>Pastry</h5>
         <hr />
-        <span>Potato Pie</span> <span>  ---  </span><span>3</span><br />
+        <div class="line">
+            <h3>Chicken Pie</h3>
+            <div>
+                <h3>3</h3>
+            </div>
+        </div>
         <hr />
-        <span>Cabbage Pie</span> <span>  ---  </span><span>3</span><br />
+
+        <div class="line">
+            <h3>Potato Pie</h3>
+            <div>
+                <h3>3</h3>
+            </div>
+        </div>
         <hr />
-        <span>Tarragon Pie</span> <span>  ---  </span><span>3</span><br />
+
+        <div class="line">
+            <h3>Tarragon Pie</h3>
+            <div>
+                <h3>3</h3>
+            </div>
+        </div>
+        <hr />
+
+        <div class="line">
+            <h3>Cabbage Pie</h3>
+            <div>
+                <h3>3</h3>
+            </div>
+        </div>
+        <hr />
     </div>
 
+    <!---------- Desserts ---------->
     <div class="food" id="desserts_board">
-        <span>San Sebastian Cheesecake </span> <span>  ---  </span><span>9</span><br />
+        <h5>Desserts</h5>
+        <hr />
+        <div class="line">
+            <h3>San Sebastian Cheesecake</h3>
+            <div>
+                <h3>9</h3>
+            </div>
+        </div>
+        <hr />
+
+        <div class="line">
+            <h3>Cheesecake With Berry</h3>
+            <div>
+                <h3>9</h3>
+            </div>
+        </div>
+        <hr />
     </div>
 
+    <!---------- Drinks ---------->
     <div class="food" id="drinks_board">
-        <span>Americano</span> <span>  ---  </span><span>5</span><br />
+        <h5>Coffee & Beverage</h5>
         <hr />
-        <span>Cappuccino</span> <span>  ---  </span><span>8</span><br />
+        <div class="line">
+            <h3>Cappuccino</h3>
+            <div>
+                <h3>8</h3>
+            </div>
+        </div>
+        <hr />
+
+        <div class="line">
+            <h3>Cappuccino</h3>
+            <div>
+                <h3>8</h3>
+            </div>
+        </div>
+        <hr />
     </div>
 </body>
 </html>
