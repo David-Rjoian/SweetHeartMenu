@@ -12,6 +12,8 @@ let desserts_board = document.getElementById('desserts_board');
 
 let drinks_board = document.getElementById('drinks_board');
 
+let body = document.getElementById('body');
+
 logo.onclick = function () {
     desserts.style.display = "block";
     dishes.style.display = "block";
@@ -23,8 +25,8 @@ logo.onclick = function () {
 };
 
 dishes.onclick = function () {
-    desserts.style.display = "none";
     dishes.style.display = "none";
+    desserts.style.display = "none";
     drinks.style.display = "none";
 
     dishes_board.style.display = "block";
