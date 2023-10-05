@@ -1,13 +1,3 @@
-@keyframes fadeAway {
-    0% {
-        opacity: 1;
-    }
-
-    100% {
-        opacity: 0;
-    }
-}
-
 body {
     background: #FFB1AD;
     padding: 0;
@@ -20,6 +10,12 @@ body {
     justify-content: space-around;
 }
 
+.logo {
+    cursor: pointer;
+    background: #FFB1AD;
+    border-block-end: 1px solid black;
+}
+
 h1 {
     width: max-content;
     color: white;
@@ -27,7 +23,12 @@ h1 {
     font-size: 100px;
     margin: 0 auto;
     text-shadow: 5px 5px 5px black;
-    cursor: pointer;
+}
+
+.logo_pic {
+    display: block;
+    width: 300px;
+    margin: 0 auto;
 }
 
 .category {
@@ -38,6 +39,7 @@ h1 {
     padding: 8px;
     border-radius: 20px;
     transition: all 3s ease 0s;
+    flex-wrap: wrap;
 }
 
 .category:hover {
@@ -68,6 +70,7 @@ h2 {
     border-radius: 20px;
     transition: all 3s ease 0s;
     align-items: center;
+    padding-inline: 50px;
 }
 
 .food img {
@@ -75,9 +78,25 @@ h2 {
     height: contain;
     border-radius: 20px;
 }
-span {
+h3 {
+    display: block;
     width: max-content;
     font-size: 100px;
     color: black;
     font: italic 4.2rem "Fira Sans", serif;
+}
+
+.line {
+    width: 100%;
+    margin: 0 auto;
+    display:flex;
+    justify-content: space-between;
+}
+
+h5 {
+    display: block;
+    width: max-content;
+    color: black;
+    margin: 10px auto 20px;
+    font: 5.2rem "Fira Sans", serif;
 }
