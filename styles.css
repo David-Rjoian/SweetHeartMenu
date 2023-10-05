@@ -1,0 +1,83 @@
+@keyframes fadeAway {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+body {
+    background: #FFB1AD;
+    padding: 0;
+    margin: 0;
+}
+
+.main_part {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+h1 {
+    width: max-content;
+    color: white;
+    font: italic small-caps bold 16px/2 cursive;
+    font-size: 100px;
+    margin: 0 auto;
+    text-shadow: 5px 5px 5px black;
+    cursor: pointer;
+}
+
+.category {
+    width: 40%;
+    height: max-content;
+    background: white;
+    margin: 20px auto;
+    padding: 8px;
+    border-radius: 20px;
+    transition: all 3s ease 0s;
+}
+
+.category:hover {
+    cursor: pointer;
+}
+
+h2 {
+    width: max-content;
+    font-size: 100px;
+    margin: 0 auto;
+    color: black;
+    font: italic small-caps 70px/2 cursive;
+}
+
+.category img {
+    width: 100%;
+    height: contain;
+    border-radius: 20px;
+}
+
+.food {
+    display: none;
+    width: 80%;
+    height: max-content;
+    background: white;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 20px;
+    transition: all 3s ease 0s;
+    align-items: center;
+}
+
+.food img {
+    width: 20%;
+    height: contain;
+    border-radius: 20px;
+}
+span {
+    width: max-content;
+    font-size: 100px;
+    color: black;
+    font: italic small-caps 70px/2 cursive;
+}
