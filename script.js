@@ -1,55 +1,120 @@
-let dishes = document.getElementById('dishes');
+let dishesEng = document.getElementById('dishesEng');
 
-let desserts = document.getElementById('desserts');
+let dessertsEng = document.getElementById('dessertsEng');
 
-let drinks = document.getElementById('drinks');
+let drinksEng = document.getElementById('drinksEng');
 
-let logo = document.getElementById('logo');
+let dishesGeo = document.getElementById('dishesGeo');
 
-let dishes_board = document.getElementById('dishes_board');
+let dessertsGeo = document.getElementById('dessertsGeo');
 
-let desserts_board = document.getElementById('desserts_board');
+let drinksGeo = document.getElementById('drinksGeo');
 
-let drinks_board = document.getElementById('drinks_board');
+let logoEng = document.getElementById('logoEng');
 
-let body = document.getElementById('body');
+let logoGeo = document.getElementById('logoGeo');
 
-logo.onclick = function () {
-    desserts.style.display = "block";
-    dishes.style.display = "block";
-    drinks.style.display = "block";
+let dishes_boardEng = document.getElementById('dishes_boardEng');
 
-    dishes_board.style.display = "none";
-    desserts_board.style.display = "none";
-    drinks_board.style.display = "none";
+let desserts_boardEng = document.getElementById('desserts_boardEng');
+
+let drinks_boardEng = document.getElementById('drinks_boardEng');
+
+let dishes_boardGeo = document.getElementById('dishes_boardGeo');
+
+let desserts_boardGeo = document.getElementById('desserts_boardGeo');
+
+let drinks_boardGeo = document.getElementById('drinks_boardGeo');
+
+let english = document.getElementById('English');
+
+let georgian = document.getElementById('Georgian');
+
+let languageMenu = document.getElementById('languageMenu');
+
+
+english.onclick = function () {
+    logoEng.style.display = "block";
+    dessertsEng.style.display = "block";
+    dishesEng.style.display = "block";
+    drinksEng.style.display = "block";
+    languageMenu.style.display = "none";
 };
 
-dishes.onclick = function () {
-    dishes.style.display = "none";
-    desserts.style.display = "none";
-    drinks.style.display = "none";
-
-    dishes_board.style.display = "block";
-    desserts_board.style.display = "none";
-    drinks_board.style.display = "none";
+georgian.onclick = function () {
+    logoGeo.style.display = "block";
+    dessertsGeo.style.display = "block";
+    dishesGeo.style.display = "block";
+    drinksGeo.style.display = "block";
+    languageMenu.style.display = "none";
 };
 
-desserts.onclick = function () {
-    desserts.style.display = "none";
-    dishes.style.display = "none";
-    drinks.style.display = "none";
+logoEng.onclick = function () {
+    dessertsEng.style.display = "block";
+    dishesEng.style.display = "block";
+    drinksEng.style.display = "block";
 
-    dishes_board.style.display = "none";
-    desserts_board.style.display = "block";
-    drinks_board.style.display = "none";
+    dishes_boardEng.style.display = "none";
+    desserts_boardEng.style.display = "none";
+    drinks_boardEng.style.display = "none";
 };
 
-drinks.onclick = function () {
-    desserts.style.display = "none";
-    dishes.style.display = "none";
-    drinks.style.display = "none";
+logoGeo.onclick = function () {
+    dessertsGeo.style.display = "block";
+    dishesGeo.style.display = "block";
+    drinksGeo.style.display = "block";
 
-    dishes_board.style.display = "none";
-    desserts_board.style.display = "none";
-    drinks_board.style.display = "block";
+    dishes_boardGeo.style.display = "none";
+    desserts_boardGeo.style.display = "none";
+    drinks_boardGeo.style.display = "none";
+};
+
+dishesEng.onclick = function () {
+    dishesEng.style.display = "none";
+    dessertsEng.style.display = "none";
+    drinksEng.style.display = "none";
+
+    dishes_boardEng.style.display = "block";
+};
+
+dessertsEng.onclick = function () {
+    dessertsEng.style.display = "none";
+    dishesEng.style.display = "none";
+    drinksEng.style.display = "none";
+
+    desserts_boardEng.style.display = "block";
+};
+
+drinksEng.onclick = function () {
+    dessertsEng.style.display = "none";
+    dishesEng.style.display = "none";
+    drinksEng.style.display = "none";
+
+    drinks_boardEng.style.display = "block";
+};
+
+//-----------------------------------------
+
+dishesGeo.onclick = function () {
+    dishesGeo.style.display = "none";
+    dessertsGeo.style.display = "none";
+    drinksGeo.style.display = "none";
+
+    dishes_boardGeo.style.display = "block";
+};
+
+dessertsGeo.onclick = function () {
+    dessertsGeo.style.display = "none";
+    dishesGeo.style.display = "none";
+    drinksGeo.style.display = "none";
+
+    desserts_boardGeo.style.display = "block";
+};
+
+drinksGeo.onclick = function () {
+    dessertsGeo.style.display = "none";
+    dishesGeo.style.display = "none";
+    drinksGeo.style.display = "none";
+
+    drinks_boardGeo.style.display = "block";
 };
