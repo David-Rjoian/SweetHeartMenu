@@ -4,6 +4,29 @@ body {
     margin: 0;
 }
 
+.languageMenu {
+    width: 70%;
+    height: max-content;
+    padding: 30px;
+    margin: 50% auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.languageBar {
+    width: 100%;
+    height: max-content;
+    background: White;
+    padding: 40px;
+    font-size: 130px;
+    border-radius: 20px;
+    margin: 30px auto;
+    text-align: center;
+    text-anchor: middle;
+    cursor: pointer;
+}
+
 .main_part {
     display: flex;
     flex-wrap: wrap;
@@ -14,12 +37,20 @@ body {
     cursor: pointer;
     background: #FFB1AD;
     border-block-end: 1px solid black;
+    font: italic small-caps bold 16px/2 cursive;
+    display: none;
+}
+
+.logo_geo {
+    cursor: pointer;
+    background: #FFB1AD;
+    border-block-end: 1px solid black;
+    display: none;
 }
 
 h1 {
     width: max-content;
     color: white;
-    font: italic small-caps bold 16px/2 cursive;
     font-size: 100px;
     margin: 0 auto;
     text-shadow: 5px 5px 5px black;
@@ -32,6 +63,7 @@ h1 {
 }
 
 .category {
+    display: none;
     width: 40%;
     height: max-content;
     background: white;
@@ -40,6 +72,7 @@ h1 {
     border-radius: 20px;
     transition: all 3s ease 0s;
     flex-wrap: wrap;
+    text-align: center;
 }
 
 .category:hover {
