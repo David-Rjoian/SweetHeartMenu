@@ -6,30 +6,66 @@
     <link rel="stylesheet" href="styles.css">
     <script type="text/javascript" src="script.js" defer></script>
 </head>
-<body id="body">
-    <div id="logo" class="logo">
+<body>
+    <!---------- Language Choose ---------->
+    <div class="languageMenu" id="languageMenu">
+        <div class="languageBar" id="Georgian">
+            <span>
+                ქართული
+            </span>
+        </div>
+        <div class="languageBar" id="English">
+            <span>
+                English
+            </span>
+        </div>
+    </div>
+    <!---------- Logos ---------->
+    <div id="logoEng" class="logo">
         <img src="No Background.png" class="logo_pic" />
         <h1>Sweet Heart</h1>
     </div>
+    <div id="logoGeo" class="logo_geo">
+        <img src="No Background.png" class="logo_pic" />
+        <h1>სვით ჰართი</h1>
+        <br />
+    </div>
     <br />
     <br />
-    <div class="main_part">
-        <div class="category" id="dishes">
+    <!---------- Menu Eng ---------->
+    <div class="main_part" id="MenuEng">
+        <div class="category" id="dishesEng">
             <img src="Dishes_Pictures.jpg" />
             <h2>Pastry</h2>
         </div>
-        <div class="category" id="desserts">
+        <div class="category" id="dessertsEng">
             <img src="Deserts_Pictures.jpg" />
             <h2>Desserts</h2>
         </div>
-        <div class="category" id="drinks">
+        <div class="category" id="drinksEng">
             <img src="Coffee_Pictures.jpg" />
             <h2>Coffee &<br />Beverage</h2>
         </div>
     </div>
 
-    <!---------- Pastry ---------->
-    <div class="food" id="dishes_board">
+    <!---------- Menu Geo ---------->
+    <div class="main_part" id="MenuGeo">
+        <div class="category" id="dishesGeo">
+            <img src="Dishes_Pictures.jpg" />
+            <h2>ხემსი</h2>
+        </div>
+        <div class="category" id="dessertsGeo">
+            <img src="Deserts_Pictures.jpg" />
+            <h2>დესერტები</h2>
+        </div>
+        <div class="category" id="drinksGeo">
+            <img src="Coffee_Pictures.jpg" />
+            <h2>ყავა &<br />კომპოტი</h2>
+        </div>
+    </div>
+
+    <!---------- Pastry Eng ---------->
+    <div class="food" id="dishes_boardEng">
         <h5>Pastry</h5>
         <hr />
         <div class="line">
@@ -65,8 +101,45 @@
         <hr />
     </div>
 
-    <!---------- Desserts ---------->
-    <div class="food" id="desserts_board">
+    <!---------- Pastry Geo ---------->
+    <div class="food" id="dishes_boardGeo">
+        <h5>ხემსი</h5>
+        <hr />
+        <div class="line">
+            <h3>ქათმის ღვეზელი</h3>
+            <div>
+                <h3>3</h3>
+            </div>
+        </div>
+        <hr />
+
+        <div class="line">
+            <h3>კარტოფილის ღვეზელი</h3>
+            <div>
+                <h3>3</h3>
+            </div>
+        </div>
+        <hr />
+
+        <div class="line">
+            <h3>თარხუნას ღვეზელი</h3>
+            <div>
+                <h3>3</h3>
+            </div>
+        </div>
+        <hr />
+
+        <div class="line">
+            <h3>კომბოსტოს ღვეზელი</h3>
+            <div>
+                <h3>3</h3>
+            </div>
+        </div>
+        <hr />
+    </div>
+
+    <!---------- Desserts Eng ---------->
+    <div class="food" id="desserts_boardEng">
         <h5>Desserts</h5>
         <hr />
         <div class="line">
@@ -86,8 +159,29 @@
         <hr />
     </div>
 
-    <!---------- Drinks ---------->
-    <div class="food" id="drinks_board">
+    <!---------- Desserts Geo ---------->
+    <div class="food" id="desserts_boardGeo">
+        <h5>დესერტები</h5>
+        <hr />
+        <div class="line">
+            <h3>ჩიზქეიქი სან სებასტიანი</h3>
+            <div>
+                <h3>9</h3>
+            </div>
+        </div>
+        <hr />
+
+        <div class="line">
+            <h3>ჩიზქეიქი კენკრის</h3>
+            <div>
+                <h3>9</h3>
+            </div>
+        </div>
+        <hr />
+    </div>
+
+    <!---------- Drinks Eng ---------->
+    <div class="food" id="drinks_boardEng">
         <h5>Coffee & Beverage</h5>
         <hr />
         <div class="line">
@@ -99,12 +193,34 @@
         <hr />
 
         <div class="line">
-            <h3>Cappuccino</h3>
+            <h3>Americano</h3>
             <div>
                 <h3>8</h3>
             </div>
         </div>
         <hr />
     </div>
+    <!---------- Drinks Geo ---------->
+    <div class="food" id="drinks_boardGeo">
+        <h5>ყავა & კომპოტი</h5>
+        <hr />
+        <div class="line">
+            <h3>კაპუჩინო</h3>
+            <div>
+                <h3>8</h3>
+            </div>
+        </div>
+        <hr />
+
+        <div class="line">
+            <h3>ამერიკანო</h3>
+            <div>
+                <h3>8</h3>
+            </div>
+        </div>
+        <hr />
+    </div>
+
+    <hr />
 </body>
 </html>
